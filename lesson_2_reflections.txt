@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 Intializing a repository includes git functionality in that repository so that it can begin version tracking. Without doing init,
 the repository won't be able to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory is the current directory being worked on at the moment, including all of the files that area tracked and untracked. The staging area only contains files that are being changed and are being tracked.
+This is a helpful distinction because it helps developers keep track of things that should be changed and those that will need to be changed at some point.
+It also helps make commits more specific so that when something is committed, it only includes the files that have been changed and not the whole directory.
