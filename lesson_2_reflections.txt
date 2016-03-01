@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+Intializing a repository includes git functionality in that repository so that it can begin version tracking. Without doing init,
+the repository won't be able to track changes.

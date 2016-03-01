@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+This exercise helped pinpoint the location of differences between the two files in a quick, succinct way.
+Rather than needing to manually search through the file,
+diff made it easier to simply go straight to the file differences and check for any mistakes.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having multiple versions of the entire file helps if there is a situation where there needs to be a rollback to a previous style
+of the program/file, or if there was a previously written way of doing something that was erased but needs to be reused.
+It's also useful in the case that a program stops working properly. Rolling back to a previous, stable version of the file
+will help ensure that users always have a working version of the product.
+Finally, version control can help for testing out new features that might potentially break old parts of a program.
+Being able to test something or iterate on an idea without risking losing the entire functionality of the program is helpful for
+trying new, innovative ideas.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+Allows me to determine best times to make a change
+Adds a logical order and timing to the commits
+Potentially easier for another person to understand when looking at commit histories
+Prevents multiple commits with tiny changes
+
+Cons:
+Possible to forget a commit
+Adds extra layers of work to a project, whereas auto-saving makes it easier to just focus on work
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is designed for programmers and others where interrelated documents and files are more common. Google Docs is created more
+for those who are going to be using files for standalone purposes. Since Google Docs uses auto-saving, it would also be harder to 
+bundle those documents together, while manual commits make it easier to group things together.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log lets me see the changes throughout a project, while git diff lets me see the specific changes made between two commits
+
+How might using version control make you more confident to make changes that could break something?
+It becomes much easier to identify and fix mistakes in git because every version is saved.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Some coding projects. Mostly just for messing around and helping where I can on other projects.
