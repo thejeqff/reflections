@@ -6,3 +6,29 @@ How is the staging area different from the working directory and the repository?
 The working directory is the current directory being worked on at the moment, including all of the files that area tracked and untracked. The staging area only contains files that are being changed and are being tracked.
 This is a helpful distinction because it helps developers keep track of things that should be changed and those that will need to be changed at some point.
 It also helps make commits more specific so that when something is committed, it only includes the files that have been changed and not the whole directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Checking the staging area will help to ensure that all the files being committed should be committed together. Rather than having every modified file end up in a version change, the staging area allows only those changes that should be together to be committed together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are really helpful for experimental changes in features and trying fixes for deeply embedded bugs.
+This helps to keep a functional and stable version of a product in tact so as to not risk destroying a working version.
+It also makes it much easier to track changes and have multiple versions of a project working at once.
+This can also allow a programmer to include multiple features at different times as long as they aren't overlapping.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help show what's being worked on, where work has branched off, and what might possibly be lost if switching branches. It helps show the workflow on a project, possible features, and how commits relate to other commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together takes the changes from both branches and attempts to merge them into a single file or commit of changes.
+It's represented as a merge since it takes the commits from both branches and merges it into a single, logical line of changes.
+This is especially true based on the way that git log shows the merged changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+Auto merges take care of easy file changes and non-conflicting merging of branches
+Speeds up the process
+Doesn't require programmers to know what everyone else is doing on the project; can focus just on their own changes
+Cons
+Conflicts can become difficult to track down, especially when changes are made elsewhere in the file
+Can lead to programmer isolation
