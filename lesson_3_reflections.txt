@@ -11,3 +11,8 @@ Describe the differences between forks, clones, and branches. When would you use
 branches: allow for different versions of files to explore new features or bug fixes
 clones: allows work to be duplicated to a new repository so that it can becomes its own project with affectnig the original repo
 fork: allows another person's work to be cloned to your own repository to make changes without affecting the person's original repo
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This allows some working locally on their computer how far ahead they are of the remote. This keeps the programmer from having to guess
+how far ahead they are. It's also helpful for the local git repo to know how far ahead of the remote it is and svaes time in finding
+conflicts or changes when it fetches or pulls from the remote.
