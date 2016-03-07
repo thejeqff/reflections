@@ -6,3 +6,8 @@ Finally, it can allow for collaborative work on a project, such as an open sourc
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 This will keep git log clean so that only actual commit changes are being logged. It also ensures that unfinished worked isn't pulled.
 Manual pulls also fit the rest of the model of git, where the user has control over saving and backing up.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+branches: allow for different versions of files to explore new features or bug fixes
+clones: allows work to be duplicated to a new repository so that it can becomes its own project with affectnig the original repo
+fork: allows another person's work to be cloned to your own repository to make changes without affecting the person's original repo
