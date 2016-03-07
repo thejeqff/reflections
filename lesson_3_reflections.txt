@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 This is best when multiple users are working on the same project from their own computers.
 This is also useful if a person plans to work on the same project from multiple systems.
 Finally, it can allow for collaborative work on a project, such as an open source project.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+This will keep git log clean so that only actual commit changes are being logged. It also ensures that unfinished worked isn't pulled.
+Manual pulls also fit the rest of the model of git, where the user has control over saving and backing up.
